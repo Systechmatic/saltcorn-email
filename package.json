@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "A plugin to send emails from within Saltcorn",
   "main": "index.js",
-  "dependencies": {nodemailer},
+  "dependencies": {
+    "nodemailer": "^6.7.0"
+  },
   "author": "Systechmatic INC",
   "license": "MIT",
   "repository": "github:Systechmatic/saltcorn-email",
@@ -11,3 +13,4 @@
     "access": "public"
   }
 }
+
